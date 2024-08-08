@@ -13,6 +13,7 @@ import skin from "../../assets/skin.jpg";
 import massage from "../../assets/massage.jpg";
 import Buttons from '../../components/Buttons';
 import makeup from "../../assets/makeup.jpg"
+import ServiceSlider from '../../components/ServiceSlider';
 
 
 const products = [
@@ -60,6 +61,7 @@ const Services = () => {
     };
   return (
     <>
+    
     <div className="service-page-container">
 <div className="hero-container">
   <Navbar />
@@ -86,7 +88,8 @@ const Services = () => {
             earum odio mollitia ad error!
           </p>
         </div>
-
+               
+        <ServiceSlider/>
         <div className="service_cards"> 
         <div className="container d-flex align-items-center justify-content-center">
             <div className="row  d-flex align-items-center justify-content-center">
@@ -121,6 +124,7 @@ const Services = () => {
             </div>
         </div>
         </div>
+      
       </div>
 
 
