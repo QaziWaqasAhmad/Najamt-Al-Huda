@@ -22,7 +22,7 @@ export const endPoints = {
     getEmployeesbyCategory:"getEmployeesbyCategory",
     deleteEmployee:"deleteEmployee",
     addEmployee:"addEmployee",
-    deleteEmployee:"deleteEmployee",
+    // deleteEmployee:"deleteEmployee",
     updateEmployee:"updateEmployee",
     
 };

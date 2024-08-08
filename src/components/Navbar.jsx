@@ -30,7 +30,7 @@ const Navbar = () => {
           </div>
           <div className="col-md-8 text-end">
             <div className="social-icons d-flex align-items-center justify-content-end gap-3 text-white">
-            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-facebook-f"></i>    
             <i class="fa-brands fa-x-twitter"></i>
             <i class="fa-brands fa-behance"></i>
             <i class="fa-brands fa-instagram"></i>
